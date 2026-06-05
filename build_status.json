@@ -1,0 +1,62 @@
+﻿node.exe : Γÿà eas-cli@18.13.0 is now available.
+At line:1 char:1
++ & "C:\Program Files\nodejs/node.exe" "C:\Program Files\nodejs/node_mo ...
++ ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+    + CategoryInfo          : NotSpecified: (Γÿà eas-cli@18.13.0 is now available.:String) [], RemoteException
+    + FullyQualifiedErrorId : NativeCommandError
+ 
+To upgrade, run:
+npm install -g eas-cli
+Proceeding with outdated version.
+
+[
+  {
+    "id": "95963c87-d170-4e29-ba16-cc5e4fc7903a",
+    "status": "FINISHED",
+    "platform": "ANDROID",
+    "artifacts": {
+      "buildUrl": "https://expo.dev/artifacts/eas/jtmxnzvZkJtZKtuYC6ctFh.apk",
+      "applicationArchiveUrl": "https://expo.dev/artifacts/eas/jtmxnzvZkJtZKtuYC6ctFh.apk"
+    },
+    "fingerprint": {
+      "id": "019e37b6-d423-7750-be30-78c15ece12d2",
+      "hash": "71df082b7637411ac099ef0092550ae3722a7428"
+    },
+    "initiatingActor": {
+      "id": "47db16ce-c2f4-4f80-be1a-4967109209dc",
+      "displayName": "ronalds30"
+    },
+    "logFiles": [
+      "https://storage.googleapis.com/eas-workflows-production/logs/2e2bb015-9a08-4a11-86c2-a3748613340a/95963c87-d170-4e29-ba16-cc5e4fc7903a/2026-05-17T20%3A53%3A10Z-090c9e5c-efbf-4805-b7bb-6f2d511cb5e5.txt?X-Goog-Algorithm=GOOG4-RSA-SHA256&X-Goog-Credential=www-production%40exponentjs.iam.gserviceaccount.com%2F20260518%2Fauto%2Fstorage%2Fgoog4_request&X-Goog-Date=20260518T005349Z&X-Goog-Expires=900&X-Goog-SignedHeaders=host&X-Goog-Signature=7972f5aeafcc7107768797b12c0be3540bd97fe05ccdf20cfef516101e402b9a84c377174e148acf51c5c9d065ac3a4f205c952f7ba73849f47114ce2ef773b07d312deb1e5a2115febb31bd583bf7c07af41bf2adfc10d9fd2f7f5927b729ba632caff5b2ad19c55f450535782b21c6b32c1f68325439a21c32747a5b23e90b306763b97aebecef1e12f4547f5860fea30386f00aa7ceae172c6407df18c26f5d51deb60a3789553d0effb4c19f71ac995703f25f89c4fbdaba379b8dbb21a9da8bd554eddcc7ed2a8c6623f0a279a789753f3894ee8077ac1eef1839c57bec7be71e08462b14a8bdbb7482c7c1a57bf821690c53b37fbd73ec853c3db754a5"
+    ],
+    "project": {
+      "id": "2e2bb015-9a08-4a11-86c2-a3748613340a",
+      "name": "AutoAlerta",
+      "slug": "AutoAlerta",
+      "ownerAccount": {
+        "id": "7c601252-cb42-415a-935b-aa841a5157c2",
+        "name": "ronalds30"
+      }
+    },
+    "channel": "preview",
+    "distribution": "INTERNAL",
+    "buildProfile": "preview",
+    "sdkVersion": "54.0.0",
+    "appVersion": "1.0.0",
+    "appBuildVersion": "1",
+    "runtimeVersion": "1.0.0",
+    "gitCommitHash": "8d1dbbf24ab9fa07ad4d2d46260e5f4c94bd2afd",
+    "gitCommitMessage": "Replace react-native-chart-kit with custom SVG chart (fixes New Architecture runtime crash)",
+    "priority": "NORMAL",
+    "createdAt": "2026-05-17T20:53:09.250Z",
+    "updatedAt": "2026-05-17T21:09:58.968Z",
+    "completedAt": "2026-05-17T21:09:58.813Z",
+    "expirationDate": "2026-05-31T20:53:09.278Z",
+    "isForIosSimulator": false,
+    "metrics": {
+      "buildWaitTime": 816,
+      "buildQueueTime": 4655,
+      "buildDuration": 1004092
+    }
+  }
+]
